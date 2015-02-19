@@ -5,7 +5,8 @@ public class Hooray
 	{ 
         	while(true) 
 		{
-            		System.out.println("Hooray!"); /*prints while true/*
+            		System.out.println("Hooray!"); /*prints while true*/
+
         	}
     	}
 		/*declares main method for Hooray class*/
