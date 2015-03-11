@@ -77,15 +77,15 @@ public class StringExperiment {
       n *= 2;                                // double the problem size
     }
 
-    System.out.println("Testing repeat1...");
-    n = start;                               // restore n to its start value
-    for (int t=0; t < trials; t++) {
-      long startTime = System.currentTimeMillis();
-      String temp = repeat1('-', n);
-      long endTime = System.currentTimeMillis();
-      long elapsed = endTime - startTime;
-      System.out.println(String.format("n: %9d took %12d milliseconds", n, elapsed));
-      n *= 2;                                // double the problem size
-    }
-  }
+    // System.out.println("Testing repeat1...");
+    // n = start;                               // restore n to its start value
+    // for (int t=0; t < trials; t++) {
+    //   long startTime = System.currentTimeMillis();
+    //   String temp = repeat1('-', n);
+    //   long endTime = System.currentTimeMillis();
+    //   long elapsed = endTime - startTime;
+    //   System.out.println(String.format("n: %9d took %12d milliseconds", n, elapsed));
+    //   n *= 2;                                // double the problem size
+    // }
+   }
 }
