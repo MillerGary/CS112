@@ -46,11 +46,10 @@ public class StackMachine
                     //display = Arrays.toString(display);
                     theStack.StackMain(input);
                     //System.out.println(" \n" +display);
-					System.out.println("Debugging Command d");
+System.out.println("Debugging Command d");
 				break;
 
-                case "x":w
-                         :
+                case "x":
 					//theStack.x(input);
 					System.out.println("Debugging Command x");
 				break;
