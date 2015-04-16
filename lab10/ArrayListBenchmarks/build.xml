@@ -46,7 +46,7 @@
         </java>
     </target>
 
-    <!-- RUNNING TASK - "ant LinkedListBenchmarks " -->
+    <!-- RUNNING TASK - "ant VectorBenchmarks " -->
     <target name="VectorBenchmarks">
         <java fork="true" classname="edu.allegheny.experiment.VectorBenchmarks" maxmemory="1024m">
             <classpath refid="build.classpath" />
